@@ -21,6 +21,6 @@ Route::prefix('restapi')->group(function () {
     Route::apiresource('books', BookApiController::class);
 });
 
-Route::get('api/time', [RestTimeController::class, 'getCurrentTime']);
+Route::get('/time', [RestTimeController::class, 'getCurrentTime']);
 
 Route::get('rpc/time', [RpcTimeController::class, 'getCurrentTime']);

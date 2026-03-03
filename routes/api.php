@@ -4,6 +4,7 @@ use App\Http\Controllers\BookApiController;
 use App\Http\Controllers\BookRestController;
 use App\Http\Controllers\BookRpcController;
 use App\Http\Controllers\BookSacController;
+use App\Http\Controllers\RestTimeController;
 use Illuminate\Support\Facades\Route;
 
 Route::post('/rpc/books/{id}/borrow', [BookRpcController::class, 'borrowBook']);
@@ -18,3 +19,5 @@ Route::prefix('rest')->group(function () {
 Route::prefix('restapi')->group(function () {
     Route::apiresource('books', BookApiController::class);
 });
+
+Route::get('api/time', [RestTimeController::class, 'getCurrentTime']);

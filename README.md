@@ -34,3 +34,16 @@
 
 </details>
 
+<details>
+    
+<summary><b>📁 Finálna úloha</b> (Kliknite pre zobrazenie obrázkov) </summary>
+
+<br>
+
+<p align="center">
+  <img src="screenshots/16(DU).png" width="31%" style="border-radius: 8px; margin: 4px; border: 1px solid #30363d;" />
+  <img src="screenshots/17(DU).png" width="31%" style="border-radius: 8px; margin: 4px; border: 1px solid #30363d;" />
+</p>
+
+</details>
+
